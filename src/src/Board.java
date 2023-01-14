@@ -5,10 +5,8 @@ import java.util.ArrayList;
 
 public class Board {
 
-	//Make it only one ArrayList?????????????????????
 	public ArrayList<Hexagon> positions = new ArrayList<Hexagon>(7);
 	public BigInteger solutionNumber;
-//	public int solutionNumber;
 	public int timesThisMethodWasCalled = 1;
 	public int spaces = 0;
 	
@@ -29,13 +27,7 @@ public class Board {
 	
 	//Checks to see if the sides match 
 	public void printMatch() {
-		String output = "";
-////////////////////////////////////////////////////////////////////////
-		
-		
-
-		
-		
+		String output = "";				
 		System.out.println(output);
 	}
 	
